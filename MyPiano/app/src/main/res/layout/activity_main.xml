@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:paddingTop="16dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="50dp"
+    android:paddingBottom="50dp"
+    android:gravity="top|center"
+    tools:context=".MainActivity">
+
+
+    <HorizontalScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button1"
+                style="@style/first_key_style_for_white_key"
+                android:layout_marginLeft="20dp"
+                android:stateListAnimator="@null"
+                 />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button2"
+                android:layout_toRightOf="@id/button1"
+                android:layout_marginLeft="2dp"
+                style="@style/common_key_style_for_rest_of_the_piano_keys"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button3"
+                android:layout_toRightOf="@id/button2"
+                android:layout_marginLeft="2dp"
+                style="@style/common_key_style_for_rest_of_the_piano_keys"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button4"
+                android:layout_toRightOf="@id/button3"
+                android:layout_marginLeft="2dp"
+                style="@style/common_key_style_for_rest_of_the_piano_keys"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button5"
+                android:layout_toRightOf="@id/button4"
+                android:layout_marginLeft="2dp"
+                style="@style/common_key_style_for_rest_of_the_piano_keys"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button6"
+                android:layout_toRightOf="@id/button5"
+                android:layout_marginLeft="2dp"
+                style="@style/common_key_style_for_rest_of_the_piano_keys"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button7"
+                android:layout_toRightOf="@id/button6"
+                android:layout_marginLeft="2dp"
+                style="@style/common_key_style_for_rest_of_the_piano_keys"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button8"
+                android:layout_toRightOf="@id/button7"
+                android:layout_marginLeft="2dp"
+                style="@style/common_key_style_for_rest_of_the_piano_keys"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button9"
+                android:layout_toRightOf="@id/button8"
+                android:layout_marginLeft="2dp"
+                style="@style/common_key_style_for_rest_of_the_piano_keys"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button10"
+                android:layout_toRightOf="@id/button9"
+                android:layout_marginLeft="2dp"
+                style="@style/common_key_style_for_rest_of_the_piano_keys"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button11"
+                android:layout_toRightOf="@id/button10"
+                android:layout_marginLeft="2dp"
+                style="@style/common_key_style_for_rest_of_the_piano_keys"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button12"
+                android:layout_toRightOf="@id/button11"
+                android:layout_marginLeft="2dp"
+                style="@style/common_key_style_for_rest_of_the_piano_keys"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button13"
+                android:layout_toRightOf="@id/button12"
+                android:layout_marginLeft="2dp"
+                style="@style/common_key_style_for_rest_of_the_piano_keys"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button14"
+                android:layout_toRightOf="@id/button13"
+                android:layout_marginLeft="2dp"
+                style="@style/common_key_style_for_rest_of_the_piano_keys"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/blackbutton1"
+                android:layout_toRightOf="@id/button1"
+                style="@style/black_piano_keys_style"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/blackbutton2"
+                android:layout_toRightOf="@id/button2"
+                style="@style/black_piano_keys_style"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/blackbutton3"
+                android:layout_toRightOf="@id/button4"
+                style="@style/black_piano_keys_style"
+
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/blackbutton4"
+                android:layout_toRightOf="@id/button5"
+                style="@style/black_piano_keys_style"
+
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/blackbutton5"
+                android:layout_toRightOf="@id/button6"
+                style="@style/black_piano_keys_style"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/blackbutton6"
+                android:layout_toRightOf="@id/button8"
+                style="@style/black_piano_keys_style"
+
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/blackbutton7"
+                android:layout_toRightOf="@id/button9"
+                style="@style/black_piano_keys_style"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/blackbutton8"
+                android:layout_toRightOf="@id/button11"
+                style="@style/black_piano_keys_style"
+
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/blackbutton9"
+                android:layout_toRightOf="@id/button12"
+                style="@style/black_piano_keys_style"
+
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/blackbutton10"
+                android:layout_toRightOf="@id/button13"
+                style="@style/black_piano_keys_style"
+
+                />
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </HorizontalScrollView>
+</RelativeLayout>
